@@ -58,7 +58,7 @@ class Game{
                         fill("red")
                         textSize(20)
                        // text(player.name)
-                        ellipse(x,y,60,60,text(player.name))
+                        ellipse(x,y,10,60,text(player.name))
                         players[index - 1].shapeColor = "red";
                         
                       //  fill("red") 
