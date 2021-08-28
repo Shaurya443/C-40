@@ -53,7 +53,7 @@ class Game{
                      players[index -1].x = x;
                      players[index - 1].y = y;
                        
-                   if(index === player.index){
+                     if(index === player.index){
                          
                         fill("black");
                         textSize(25);
@@ -61,6 +61,7 @@ class Game{
 
                         
                     }
+                    
                       
                  
                  }
@@ -118,5 +119,6 @@ class Game{
 
     end(){
        console.log("Game Ended");
+       console.log(40*30/4+2-12+3);
     }
 }
