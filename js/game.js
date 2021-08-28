@@ -53,29 +53,14 @@ class Game{
                      players[index -1].x = x;
                      players[index - 1].y = y;
                        
-                     if(index === player.index){
-                       // stroke(10)
-                        fill("red")
-                        textSize(20)
-                       // text(player.name)
-                        ellipse(x,y,10,60,text(player.name))
-                        players[index - 1].shapeColor = "red";
-                        
-                      //  fill("red") 
-                       // textSize(20)
-                       //add code to display the player's name on the respective basket.
-                        // text(player.name,60,60,players[index-1])
-
-
-                        
+                   if(index === player.index){
                          
-                     }
-                    // if(index===player.index){
-                        //cars[index-1].shapeColor= "red"
-                       // camera.position.x =displayWidth/2;
-                       // camera.position.y =cars[index-1].y
-                    //  }
-                    
+                        fill("black");
+                        textSize(25);
+                        text(allPlayers[plr].name ,x-25,y+25);
+
+                        
+                    }
                       
                  
                  }
